@@ -13,6 +13,11 @@
         <entry key="..\:/Users/nelso/AndroidStudioProjects/SeniorsHelpingSeniors/app/src/main/res/layout/activity_profile_screen.xml" value="0.32916666666666666" />
         <entry key="..\:/Users/nelso/AndroidStudioProjects/SeniorsHelpingSeniors/app/src/main/res/layout/activity_settings_screen.xml" value="0.32916666666666666" />
         <entry key="..\:/Users/nelso/AndroidStudioProjects/SeniorsHelpingSeniors/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.5703125" />
+        <entry key="app/src/main/res/layout/activity_help_now.xml" value="0.29483695652173914" />
+        <entry key="app/src/main/res/layout/activity_help_screen.xml" value="0.29483695652173914" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.29483695652173914" />
+        <entry key="app/src/main/res/layout/activity_profile_screen.xml" value="0.29483695652173914" />
+        <entry key="app/src/main/res/layout/activity_settings_screen.xml" value="0.29483695652173914" />
       </map>
     </option>
   </component>

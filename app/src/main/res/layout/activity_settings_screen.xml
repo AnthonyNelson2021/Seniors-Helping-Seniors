@@ -30,6 +30,13 @@
         android:layout_marginBottom="44dp"
         app:srcCompat="@drawable/offerhelp" />
 
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/enable_nots_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="510dp" />
+
     <ImageView
         android:id="@+id/settings"
         android:layout_width="66dp"
