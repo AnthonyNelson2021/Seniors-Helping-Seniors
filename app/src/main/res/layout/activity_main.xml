@@ -92,7 +92,7 @@
         android:textSize="16sp" />
 
     <com.google.android.gms.common.SignInButton
-        android:id="@+id/enable_nots_button"
+        android:id="@+id/signInButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
