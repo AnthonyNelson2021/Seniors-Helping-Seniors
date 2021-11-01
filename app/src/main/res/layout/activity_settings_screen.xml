@@ -171,6 +171,7 @@
         android:layout_marginEnd="275dp"
         android:layout_marginRight="275dp"
         android:layout_marginBottom="8dp"
+        android:onClick="onClick"
         android:text="Logout"
         app:layout_constraintBottom_toTopOf="@+id/help_and_support_title"
         app:layout_constraintEnd_toEndOf="parent"

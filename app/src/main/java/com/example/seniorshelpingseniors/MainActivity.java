@@ -14,7 +14,6 @@ import androidx.activity.result.ActivityResultCallback;
 import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.appcompat.app.AppCompatActivity;
-
 import com.example.seniorshelpingseniors.databinding.ActivityMainBinding;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
@@ -24,10 +23,12 @@ import com.google.android.gms.common.SignInButton;
 import com.google.android.gms.common.api.ApiException;
 import com.google.android.gms.tasks.Task;
 
+
+
 public class MainActivity extends AppCompatActivity{
 
-    ActivityMainBinding binding;
-    GoogleSignInClient mGoogleSignInClient;
+    public ActivityMainBinding binding;
+    public GoogleSignInClient mGoogleSignInClient;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,6 +51,7 @@ public class MainActivity extends AppCompatActivity{
             public void onClick(View v) {
                 Intent signInIntent = mGoogleSignInClient.getSignInIntent();
                 startActivityForResult.launch(signInIntent);
+
             }
         });
     }
@@ -95,4 +97,5 @@ public class MainActivity extends AppCompatActivity{
             Log.d("Google Error", e.getMessage());
         }
     }
+
 }
