@@ -77,16 +77,29 @@ public class SettingsScreen extends AppCompatActivity {
 
     public void enableNotifications()
     {
+        AlertDialog.Builder dialog=new AlertDialog.Builder(this);
+        dialog.setMessage("Notifications Enabled!");
+        AlertDialog alertDialog=dialog.create();
+        alertDialog.show();
 
-        NotificationCompat.Builder builder = new NotificationCompat.Builder(this, String.valueOf(1))
-                .setSmallIcon(1)
-                .setContentTitle("Test notification")
-                .setContentText("This is a test")
-                .setPriority(NotificationCompat.PRIORITY_DEFAULT);
-        NotificationManagerCompat notificationManager = NotificationManagerCompat.from(this);
+    }
 
-        // notificationId is a unique int for each notification that you must define
-        notificationManager.notify(1, builder.build());
+    public void onClickDisableNotifications(View v) {
+        switch (v.getId()) {
+            // ...
+            case R.id.disable_tots_button2:
+                disableNotifications();
+                break;
+            // ...
+        }
+    }
+
+    private void disableNotifications()
+    {
+        AlertDialog.Builder dialog=new AlertDialog.Builder(this);
+        dialog.setMessage("Notifications Disabled!");
+        AlertDialog alertDialog=dialog.create();
+        alertDialog.show();
     }
 
     public void onClickLogout(View v) {
